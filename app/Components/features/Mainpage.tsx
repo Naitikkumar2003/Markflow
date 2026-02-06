@@ -7,6 +7,8 @@ interface MainpageProps {
   onSort: () => void;
 }
 
+
+
 export default function Mainpage({ view, setView ,onSort}: MainpageProps){
   return (
     <div className="flex items-center justify-between mb-8">
